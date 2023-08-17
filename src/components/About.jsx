@@ -44,7 +44,7 @@ const About = () => {
 
 const AboutPage = styled.div`
   width: 100%;
-  height: 80vh;
+  height: fit-content;
   padding: 1rem 5rem;
   display: flex;
   flex-direction: column;
