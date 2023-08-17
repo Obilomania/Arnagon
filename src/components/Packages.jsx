@@ -162,7 +162,7 @@ const Packages = () => {
               <p>Ad campaigns</p>
             </div>
             <div className="info">
-              <img src={Close} alt="" />
+              <img src={Done} alt="" />
               <p>Your logo launched into space</p>
             </div>
           </div>
