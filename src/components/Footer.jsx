@@ -28,13 +28,13 @@ const Footer = () => {
           <h1>Contact Us</h1>
           <div className="twoContent">
             <p>
-              Address<span>Ikeja Lagos, Nigeria</span>
+              Address : <span>Ikeja Lagos, Nigeria</span>
             </p>
             <p>
-              Phone<span>+2349152320106</span>
+              Phone : <span>+2349152320106</span>
             </p>
             <p>
-              Email<span>arnagonofficial@gmail.com</span>
+              Email : <span>arnagonofficial@gmail.com</span>
             </p>
           </div>
         </div>
@@ -79,6 +79,12 @@ const Footsection = styled.div`
     align-items: start;
     justify-content: space-between;
     width: 100%;
+  }
+  span {
+    color: white;
+  }
+  .two p {
+    color: #ef732d;
   }
   .group h1 {
     color: white;
@@ -135,9 +141,8 @@ const Footsection = styled.div`
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
-    font-size:16px;
-    font-weight:400;
-
+    font-size: 16px;
+    font-weight: 400;
   }
 `;
 export default Footer;
